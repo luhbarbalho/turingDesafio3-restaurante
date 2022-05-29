@@ -103,46 +103,7 @@ body {
 }
 
 :root {
-    /* --color_0: rgba(255, 255, 255, 0);
-    --color_1: rgb(255,255,255);
-    --color_2: rgb(0,0,0);
-    --color_3: rgb(237,28,36);
-    --color_4: rgb(0,136,203);
-    --color_5: rgb(255,203,5);
-    --color_6: rgb(114,114,114);
-    --color_7: rgb(176,176,176);
-    --color_8: rgb(255,255,255);
-    --color_9: rgb(114,114,114);
-    --color_10: rgb(176,176,176);
-    --color_11: rgb(255,255,255);
-    --color_12: rgb(230,231,234);
-    --color_13: rgb(191,191,191);
-    --color_14: rgb(125,124,124);
-    --color_15: rgb(65,65,65);
-    --color_16: rgb(219,231,255);
-    --color_17: rgb(155,181,232);
-    --color_18: rgb(104,127,173);
-    --color_19: rgb(65,75,95);
-    --color_20: rgb(36,42,53);
-    --color_21: rgb(196,228,210);
-    --color_22: rgb(158,200,177);
-    --color_23: rgb(100,173,133);
-    --color_24: rgb(67,115,89);
-    --color_25: rgb(33,58,44);
-    --color_26: rgb(235,218,178);
-    --color_27: rgb(214,184,110);
-    --color_28: rgb(161,138,83);
-    --color_29: rgb(107,92,55);
-    --color_30: rgb(54,46,28);
-    --color_31: rgb(202,181,210);
-    --color_32: rgb(156,131,165);
-    --color_33: rgb(107,70,120);
-    --color_34: rgb(71,47,80);
-    --color_35: rgb(36,23,40); */
-}
-
-:root {
-    --color_0: rgb(255,255,255);
+    --color_0: rgba(255, 255, 255, 0);
     --color_1: rgb(255,255,255);
     --color_2: rgb(0,0,0);
     --color_3: rgb(237,28,36);
@@ -178,6 +139,21 @@ body {
     --color_33: rgb(131,169,93);
     --color_34: rgb(77,140,14);
     --color_35: rgb(39,70,7);
+    --color_36: rgb(202,181,210);
+    --color_37: rgb(156,131,165);
+    --color_38: rgb(107,70,120);
+    --color_39: rgb(71,47,80);
+    --color_40: rgb(36,23,40);
+    --color_41: rgb(219,231,255);
+    --color_42: rgb(155,181,232);
+    --color_43: rgb(104,127,173);
+    --color_44: rgb(65,75,95);
+    --color_45: rgb(36,42,53);
+    --color_46: rgb(196,228,210);
+    --color_47: rgb(158,200,177);
+    --color_48: rgb(100,173,133);
+    --color_49: rgb(67,115,89);
+    --color_50: rgb(33,58,44);
     
     --font_0:normal normal normal 130px/1.4em caudex,serif;
     --font_1:normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;

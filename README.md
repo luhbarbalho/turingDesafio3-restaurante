@@ -7,8 +7,8 @@
 
 ### Requisitos:
 
-    - [ ] Header
-    - [ ] Introdução
+    - [x] Header
+    - [x] Title Screen
     - [ ] Fotos de Apresentação
     - [ ] Cocktail Collection
     - [ ] Cocktail o'clock
