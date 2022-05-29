@@ -1,0 +1,92 @@
+
+main {
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/imgs/yellow-background.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 800px;
+    height: 1080px;
+    border-radius: 380px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 635px;
+    height: 700px;
+}
+
+.banner h1 {
+    font-size: 210px;
+    color: var(--color_23);
+    font-family: 'Caudex';
+}
+
+.banner h2 {
+    color: var(--color_18);
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.banner button {
+    width: 250px;
+    height: 70px;
+    margin-top: 100px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--color_18);
+    border-radius: 40px;
+    color: var(--color_28);
+    background-color: var(--color_18);
+    font-family: 'Avenir';
+    font-size: 25px;
+    transition: linear 0.2s;
+}
+
+.banner button:hover {
+    color: var(--color_18);
+    background-color: var(--color_28);
+    transition: linear 0.3s;
+    cursor: pointer;
+    border: 0.5px solid var(--color_18);
+}
+.banner button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    
+    .banner {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 415px) {
+    main {
+        height: 120vh;
+    }
+    
+    .banner {
+        height: auto;
+    }
+    
+    .banner h2 {
+        text-align: center;
+        font-size: 46px;
+    }
+    
+    .banner h4 {
+        margin: 15px;
+    }
+}        

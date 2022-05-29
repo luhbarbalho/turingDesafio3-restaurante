@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    outline:0;
+    vertical-align: baseline;
+    background:transparent;
+    font-family: 'Avenir-black';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x:hidden;
+}
+
+:root {
+    /* --color_0: rgba(255, 255, 255, 0);
+    --color_1: rgb(255,255,255);
+    --color_2: rgb(0,0,0);
+    --color_3: rgb(237,28,36);
+    --color_4: rgb(0,136,203);
+    --color_5: rgb(255,203,5);
+    --color_6: rgb(114,114,114);
+    --color_7: rgb(176,176,176);
+    --color_8: rgb(255,255,255);
+    --color_9: rgb(114,114,114);
+    --color_10: rgb(176,176,176);
+    --color_11: rgb(255,255,255);
+    --color_12: rgb(230,231,234);
+    --color_13: rgb(191,191,191);
+    --color_14: rgb(125,124,124);
+    --color_15: rgb(65,65,65);
+    --color_16: rgb(219,231,255);
+    --color_17: rgb(155,181,232);
+    --color_18: rgb(104,127,173);
+    --color_19: rgb(65,75,95);
+    --color_20: rgb(36,42,53);
+    --color_21: rgb(196,228,210);
+    --color_22: rgb(158,200,177);
+    --color_23: rgb(100,173,133);
+    --color_24: rgb(67,115,89);
+    --color_25: rgb(33,58,44);
+    --color_26: rgb(235,218,178);
+    --color_27: rgb(214,184,110);
+    --color_28: rgb(161,138,83);
+    --color_29: rgb(107,92,55);
+    --color_30: rgb(54,46,28);
+    --color_31: rgb(202,181,210);
+    --color_32: rgb(156,131,165);
+    --color_33: rgb(107,70,120);
+    --color_34: rgb(71,47,80);
+    --color_35: rgb(36,23,40); */
+}
+
+:root {
+    --color_0: rgb(255,255,255);
+    --color_1: rgb(255,255,255);
+    --color_2: rgb(0,0,0);
+    --color_3: rgb(237,28,36);
+    --color_4: rgb(0,136,203);
+    --color_5: rgb(255,203,5);
+    --color_6: rgb(114,114,114);
+    --color_7: rgb(176,176,176);
+    --color_8: rgb(255,255,255);
+    --color_9: rgb(114,114,114);
+    --color_10: rgb(176,176,176);
+    --color_11: rgb(255,255,255);
+    --color_12: rgb(232,230,230);
+    --color_13: rgb(199,199,199);
+    --color_14: rgb(89,89,89);
+    --color_15: rgb(51,51,51);
+    --color_16: rgb(161,186,215);
+    --color_17: rgb(116,143,174);
+    --color_18: rgb(0,44,93);
+    --color_19: rgb(30,54,79);
+    --color_20: rgb(0,5,10);
+    --color_21: rgb(232,155,155);
+    --color_22: rgb(210,105,105);
+    --color_23: rgb(173,0,0);
+    --color_24: rgb(125,1,0);
+    --color_25: rgb(62,0,0);
+    --color_26: rgb(255,238,187);
+    --color_27: rgb(255,230,153);
+    --color_28: rgb(255,205,50);
+    --color_29: rgb(170,137,33);
+    --color_30: rgb(85,68,17);
+    --color_31: rgb(201,226,175);
+    --color_32: rgb(168,198,138);
+    --color_33: rgb(131,169,93);
+    --color_34: rgb(77,140,14);
+    --color_35: rgb(39,70,7);
+    
+    --font_0:normal normal normal 130px/1.4em caudex,serif;
+    --font_1:normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2:normal normal normal 65px/1.4em caudex,serif;
+    --font_3:normal normal normal 60px/1.4em caudex,serif;
+    --font_4:normal normal normal 35px/1.4em caudex,serif;
+    --font_5:normal normal normal 30px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+    --font_6:normal normal normal 24px/1.4em avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+    --font_7:normal normal normal 35px/1.4em caudex,serif;
+    --font_8:normal normal normal 30px/1.4em caudex,serif;
+    --font_9:normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    --font_10:normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+
+@font-face {
+    font-family: DidotItalic;
+    src: url(./fonts/Didot/Didot\ LT\ Std\ Italic.otf);
+}
+@font-face {
+    font-family: DidotRegular;
+    src: url(../assets/fonts/Didot/Didot\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../assets/fonts/Avenir/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: Avenir-black;
+    src: url(../assets/fonts/Avenir/AvenirLTStd-Black.otf);
+}
+
+@font-face {
+    font-family: Din-Next;
+    src: url(../assets/fonts/Din-Next/DINNextW1G-UltraLight.otf);
+}
+
+@font-face {
+    font-family: Din-Next;
+    src: url(../assets/fonts/Din-Next/DINNextW1G-Light.otf);
+}
+
+@font-face {
+    font-family: Brandon;
+    src: url(../assets/fonts/Brandon-grotesque/Brandon_reg.otf);
+}
+
+@font-face {
+    font-family: Brandon-med;
+    src: url(./fonts/Brandon-grotesque/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: Brandon-light;
+    src: url(./fonts/Brandon-grotesque/Brandon_light.otf);
+}
