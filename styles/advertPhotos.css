@@ -1,63 +1,57 @@
 
-/* section .about {
+.advertPhotos {
     width: 100vw;
-    height: 930px;
+    height: 600px;
     display: flex;
-} */
+    justify-content: center;
+}
 
-/* .sectionLeft {
-    width: 600px;
+.sectionLeft {
+    width: 100%;
     height: 100%;
-    background: url(../assets/vaquinhasfelizes.webp);
-    background-size: 600px 980px;
+    background: url(../assets/imgs/big-cocktail.webp);
+    background-size: 51% 101%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: 0% 0%;
 }
+
 
 .sectionRight {
-    width: 70vw;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/imgs/blueMan-cocktail.webp);
+    background-size: 51% 101%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100% 0%;
+}
+
+.textBlock {/*TODO: tentar fixar o texto na imagem */
+    width: 50%;
+    height: 600px;
     display: flex;
-    align-items: center;
+    position: absolute;
+    flex-direction: column;
     justify-content: center;
-    background-color: var(--color_10);
-}
-
-.textBlock {
-    width: 470px;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    border-radius: 7px;
-    padding: 8px 0;
-    border: 0.5px solid var(--color_25);
-    background-color: var(--color_0);
-    box-shadow: 0 0 5px 1px rgba(98, 98, 96, 0.3);;
+    background-color: rgba(165, 42, 42, 0.0);
 }
 
-.texts {
-    width: 370px;
-    height: 215px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 
 .textBlock h4 {
-    font-size: 30px;
-    font-family: 'Caudex';
-    color: var(--color_23);
-    text-decoration: underline;
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .textBlock p {
-    font-family: 'Avenir';
+    font-family: 'caudex';
     font-size: 16.5px;
     line-height: 30px;
+    color: #ffffff;
 }
 
+/* 
 @media (max-width: 1024px) {
 
     .about {

@@ -5,19 +5,17 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 0;
     background-image: url(../assets/imgs/yellow-background.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 
 img {
-    width: 800px;
-    height: 1080px;
+    width: 30vw;
+    height: 80vh;
     border-radius: 380px;
 }
 
@@ -71,9 +69,9 @@ img {
     }
     
     img {
-        width: 500px;
-        height: 700px;
-        border-radius: 235px;
+        width: 35vw;
+        height: 70vh;
+        border-radius: 230px;
     }
     .banner {
         width: 400px;
@@ -106,10 +104,10 @@ img {
     }
     
     img {
-        width: 430px;
-        height: 550px;
+        width: 60vw;
+        height: 65vh;
         margin-top: 170px;
-        border-radius: 235px;
+        border-radius: 175px;
     }
     .banner {
         width: auto;
@@ -139,10 +137,10 @@ img {
     }
     
     img {
-        width: 300px;
+        /* width: 300px;
         height: 430px;
         margin-top: 150px;
-        border-radius: 200px;
+        border-radius: 200px; */
     }
     
     .banner h1 {
@@ -158,4 +156,4 @@ img {
     .banner button {
         margin-top: 35px;
     }
-}  
+}
